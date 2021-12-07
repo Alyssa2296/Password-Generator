@@ -43,7 +43,6 @@ function getLength() {
 function confirmSpecialChars() {
   //prompt user to say if they need special characters or not and return their answer
   var trueOrFalse = confirm("Does this password need special charcters?");
-  close(trueOrFalse);
   return trueOrFalse;
 }
 
@@ -52,7 +51,6 @@ function confirmUpperCase() {
   var trueOrFalse = confirm(
     "Does this password need to contain upper case letters? "
   );
-  close(trueOrFalse);
   return trueOrFalse;
 }
 
@@ -61,14 +59,12 @@ function confirmLowerCase() {
   var trueOrFalse = confirm(
     "Does this password need to contain lower case letters? "
   );
-  close(trueOrFalse);
   return trueOrFalse;
 }
 
 function confirmNumbers() {
   //prompt user to say if they needs numbers or not and return their answer
   var trueOrFalse = confirm("Does this password need to contain numbers?");
-  close(trueOrFalse);
   return trueOrFalse;
 }
 
